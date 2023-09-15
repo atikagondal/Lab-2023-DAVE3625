@@ -99,8 +99,7 @@ import random
 print(StudentID,Age,email,hrsStudy,FinalGrade)
 for i in range(50):
    studId ="s" + str(random.randrange(10000,99999,1)) 
-   print(str(studId)+","+ str(random.randrange(19,35,1))+",
-      "+str(studId+"@oslomet.no"+","+str(random.randint(0, 12)))+","+str(random.randint(20, 100)))
+   print(str(studId)+","+ str(random.randrange(19,35,1))+","+str(studId+"@oslomet.no"+","+str(random.randint(0, 12)))+","+str(random.randint(20, 100)))
 ```
 
 ## More hints
