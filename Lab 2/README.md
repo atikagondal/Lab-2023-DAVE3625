@@ -89,7 +89,7 @@ We can also see that many people has a NaN for Cabin. It’s not as easy as just
 Cabin = True / False
 And set all NaN values = False, all other = True
 ```python
-df["HasCabin"] = df.Cabin.isnull()
+df["HasCabin"] = df.Cabin.notnull()
 ```
 do a df.head() and you can see we have a new column, but there is an error. 
 
